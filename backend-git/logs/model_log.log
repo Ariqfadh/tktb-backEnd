@@ -1,0 +1,144 @@
+2024-11-28T06:36:32,613 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T06:36:32,623 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T06:36:32,623 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T06:36:32,623 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T06:36:32,623 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T06:36:32,623 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T06:36:32,623 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T06:36:32,623 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T06:36:32,623 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T06:36:32,629 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T06:36:32,629 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T06:36:32,631 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2024-11-28T06:36:41,942 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T06:36:41,942 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T06:36:41,942 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T06:36:41,942 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T06:36:41,942 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T06:36:41,942 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T06:36:41,942 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T06:36:41,942 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T06:36:41,942 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T06:36:41,942 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T06:36:41,950 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T06:36:41,950 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2024-11-28T06:36:46,713 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T06:36:46,720 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T06:36:46,720 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T06:36:46,721 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T06:36:46,721 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T06:36:46,721 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T06:36:46,721 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T06:36:46,721 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T06:36:46,725 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T06:36:46,726 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T06:36:46,726 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T06:36:46,726 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2024-11-28T06:36:53,503 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T06:36:53,503 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T06:36:53,503 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T06:36:53,503 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T06:36:53,503 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T06:36:53,503 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T06:36:53,503 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T06:36:53,503 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T06:36:53,503 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T06:36:53,503 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T06:36:53,511 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T06:36:53,511 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2024-11-28T07:33:18,671 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T07:33:18,671 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T07:33:18,671 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T07:33:18,671 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T07:33:18,671 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T07:33:18,671 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T07:33:18,671 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T07:33:18,671 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T07:33:18,681 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T07:33:18,681 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T07:33:18,681 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T07:33:18,681 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2024-11-28T07:33:39,153 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T07:33:39,153 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T07:33:39,153 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T07:33:39,153 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T07:33:39,153 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T07:33:39,153 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T07:33:39,168 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T07:33:39,168 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T07:33:39,177 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T07:33:39,177 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T07:33:39,180 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T07:33:39,180 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'

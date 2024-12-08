@@ -1,0 +1,11 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"  # Map container port to host port
+    volumes:
+      - ./backend:/app  # Optional: Mount local code for development
+    environment:
+      - FLASK_ENV=development  # Example environment variable

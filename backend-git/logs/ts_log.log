@@ -1,0 +1,804 @@
+2024-11-28T06:36:26,588 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2024-11-28T06:36:26,588 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2024-11-28T06:36:29,049 [DEBUG] main org.pytorch.serve.util.ConfigManager - xpu-smi not available or failed: Cannot run program "xpu-smi": CreateProcess error=2, The system cannot find the file specified
+2024-11-28T06:36:29,049 [DEBUG] main org.pytorch.serve.util.ConfigManager - xpu-smi not available or failed: Cannot run program "xpu-smi": CreateProcess error=2, The system cannot find the file specified
+2024-11-28T06:36:29,049 [WARN ] main org.pytorch.serve.util.ConfigManager - Your torchserve instance can access any URL to load models. When deploying to production, make sure to limit the set of allowed_urls in config.properties
+2024-11-28T06:36:29,049 [WARN ] main org.pytorch.serve.util.ConfigManager - Your torchserve instance can access any URL to load models. When deploying to production, make sure to limit the set of allowed_urls in config.properties
+2024-11-28T06:36:29,127 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2024-11-28T06:36:29,127 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2024-11-28T06:36:29,205 [INFO ] main org.pytorch.serve.metrics.configuration.MetricConfiguration - Successfully loaded metrics configuration from C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml
+2024-11-28T06:36:29,205 [INFO ] main org.pytorch.serve.metrics.configuration.MetricConfiguration - Successfully loaded metrics configuration from C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml
+2024-11-28T06:36:29,379 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.12.0
+TS Home: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages
+Current directory: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd
+Temp directory: C:\Users\ariqf\AppData\Local\Temp
+Metrics config path: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml
+Number of GPUs: 1
+Number of CPUs: 16
+Max heap size: 5048 M
+Python executable: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe
+Config file: N/A
+Inference address: http://127.0.0.1:8080
+Management address: http://127.0.0.1:8081
+Metrics address: http://127.0.0.1:8082
+Model Store: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\model_store
+Initial Models: blood_cells_v8=blood_cells_v8.mar
+Log dir: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\logs
+Metrics dir: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 1
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 6553500
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Enable metrics API: true
+Metrics mode: LOG
+Disable system metrics: false
+Workflow Store: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\model_store
+CPP log config: N/A
+Model config: N/A
+System metrics command: default
+Model API enabled: false
+2024-11-28T06:36:29,379 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.12.0
+TS Home: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages
+Current directory: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd
+Temp directory: C:\Users\ariqf\AppData\Local\Temp
+Metrics config path: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml
+Number of GPUs: 1
+Number of CPUs: 16
+Max heap size: 5048 M
+Python executable: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe
+Config file: N/A
+Inference address: http://127.0.0.1:8080
+Management address: http://127.0.0.1:8081
+Metrics address: http://127.0.0.1:8082
+Model Store: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\model_store
+Initial Models: blood_cells_v8=blood_cells_v8.mar
+Log dir: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\logs
+Metrics dir: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 1
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 6553500
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Enable metrics API: true
+Metrics mode: LOG
+Disable system metrics: false
+Workflow Store: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\model_store
+CPP log config: N/A
+Model config: N/A
+System metrics command: default
+Model API enabled: false
+2024-11-28T06:36:29,396 [INFO ] main org.pytorch.serve.ModelServer - Loading initial models: blood_cells_v8.mar
+2024-11-28T06:36:29,396 [INFO ] main org.pytorch.serve.ModelServer - Loading initial models: blood_cells_v8.mar
+2024-11-28T06:36:30,250 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 1.0 for model blood_cells_v8
+2024-11-28T06:36:30,250 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 1.0 for model blood_cells_v8
+2024-11-28T06:36:30,260 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 1.0 for model blood_cells_v8
+2024-11-28T06:36:30,260 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 1.0 for model blood_cells_v8
+2024-11-28T06:36:30,261 [INFO ] main org.pytorch.serve.wlm.ModelManager - Model blood_cells_v8 loaded.
+2024-11-28T06:36:30,261 [INFO ] main org.pytorch.serve.wlm.ModelManager - Model blood_cells_v8 loaded.
+2024-11-28T06:36:30,261 [DEBUG] main org.pytorch.serve.wlm.ModelManager - updateModel: blood_cells_v8, count: 1
+2024-11-28T06:36:30,261 [DEBUG] main org.pytorch.serve.wlm.ModelManager - updateModel: blood_cells_v8, count: 1
+2024-11-28T06:36:30,275 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T06:36:30,275 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T06:36:30,277 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: NioServerSocketChannel.
+2024-11-28T06:36:30,277 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: NioServerSocketChannel.
+2024-11-28T06:36:30,361 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://127.0.0.1:8080
+2024-11-28T06:36:30,361 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://127.0.0.1:8080
+2024-11-28T06:36:30,361 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: NioServerSocketChannel.
+2024-11-28T06:36:30,361 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: NioServerSocketChannel.
+2024-11-28T06:36:30,361 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://127.0.0.1:8081
+2024-11-28T06:36:30,361 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://127.0.0.1:8081
+2024-11-28T06:36:30,361 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: NioServerSocketChannel.
+2024-11-28T06:36:30,361 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: NioServerSocketChannel.
+2024-11-28T06:36:30,365 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://127.0.0.1:8082
+2024-11-28T06:36:30,365 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://127.0.0.1:8082
+2024-11-28T06:36:30,624 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2024-11-28T06:36:30,624 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2024-11-28T06:36:30,732 [ERROR] Thread-1 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\metrics\metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\metrics\system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\metrics\system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2024-11-28T06:36:30,732 [ERROR] Thread-1 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\metrics\metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\metrics\system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\metrics\system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2024-11-28T06:36:32,613 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T06:36:32,623 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T06:36:32,623 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T06:36:32,623 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T06:36:32,623 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T06:36:32,623 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T06:36:32,623 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T06:36:32,623 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T06:36:32,623 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T06:36:32,629 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T06:36:32,629 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T06:36:32,631 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2024-11-28T06:36:32,890 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T06:36:32,890 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T06:36:32,890 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T06:36:32,890 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T06:36:32,900 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T06:36:32,900 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T06:36:32,919 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change null -> WORKER_STOPPED
+2024-11-28T06:36:32,919 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change null -> WORKER_STOPPED
+2024-11-28T06:36:32,919 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery start timestamp: 1732750592919
+2024-11-28T06:36:32,919 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery start timestamp: 1732750592919
+2024-11-28T06:36:32,919 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 1 seconds.
+2024-11-28T06:36:32,919 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 1 seconds.
+2024-11-28T06:36:33,933 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T06:36:33,933 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T06:36:35,426 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2024-11-28T06:36:35,675 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T06:36:35,675 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T06:36:35,675 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T06:36:35,675 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T06:36:35,677 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T06:36:35,677 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T06:36:35,677 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change WORKER_STOPPED -> WORKER_STOPPED
+2024-11-28T06:36:35,677 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change WORKER_STOPPED -> WORKER_STOPPED
+2024-11-28T06:36:35,677 [WARN ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery failed again
+2024-11-28T06:36:35,677 [WARN ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery failed again
+2024-11-28T06:36:35,677 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 1 seconds.
+2024-11-28T06:36:35,677 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 1 seconds.
+2024-11-28T06:36:36,683 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T06:36:36,683 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T06:36:38,174 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2024-11-28T06:36:38,441 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T06:36:38,441 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T06:36:38,441 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T06:36:38,441 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T06:36:38,442 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T06:36:38,442 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T06:36:38,443 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change WORKER_STOPPED -> WORKER_STOPPED
+2024-11-28T06:36:38,443 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change WORKER_STOPPED -> WORKER_STOPPED
+2024-11-28T06:36:38,443 [WARN ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery failed again
+2024-11-28T06:36:38,443 [WARN ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery failed again
+2024-11-28T06:36:38,443 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 2 seconds.
+2024-11-28T06:36:38,443 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 2 seconds.
+2024-11-28T06:36:40,449 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T06:36:40,449 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T06:36:41,942 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T06:36:41,942 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T06:36:41,942 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T06:36:41,942 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T06:36:41,942 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T06:36:41,942 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T06:36:41,942 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T06:36:41,942 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T06:36:41,942 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T06:36:41,942 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T06:36:41,950 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T06:36:41,950 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2024-11-28T06:36:42,199 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T06:36:42,199 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T06:36:42,199 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T06:36:42,201 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T06:36:42,199 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T06:36:42,201 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T06:36:42,203 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change WORKER_STOPPED -> WORKER_STOPPED
+2024-11-28T06:36:42,203 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change WORKER_STOPPED -> WORKER_STOPPED
+2024-11-28T06:36:42,203 [WARN ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery failed again
+2024-11-28T06:36:42,203 [WARN ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery failed again
+2024-11-28T06:36:42,203 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 3 seconds.
+2024-11-28T06:36:42,203 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 3 seconds.
+2024-11-28T06:36:45,213 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T06:36:45,213 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T06:36:46,713 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T06:36:46,720 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T06:36:46,720 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T06:36:46,721 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T06:36:46,721 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T06:36:46,721 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T06:36:46,721 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T06:36:46,721 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T06:36:46,725 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T06:36:46,726 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T06:36:46,726 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T06:36:46,726 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2024-11-28T06:36:46,964 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T06:36:46,964 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T06:36:46,964 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T06:36:46,964 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T06:36:46,973 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T06:36:46,973 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T06:36:46,973 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change WORKER_STOPPED -> WORKER_STOPPED
+2024-11-28T06:36:46,973 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change WORKER_STOPPED -> WORKER_STOPPED
+2024-11-28T06:36:46,973 [WARN ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery failed again
+2024-11-28T06:36:46,973 [WARN ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery failed again
+2024-11-28T06:36:46,975 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 5 seconds.
+2024-11-28T06:36:46,975 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 5 seconds.
+2024-11-28T06:36:51,982 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T06:36:51,982 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T06:36:53,503 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T06:36:53,503 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T06:36:53,503 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T06:36:53,503 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T06:36:53,503 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T06:36:53,503 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T06:36:53,503 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T06:36:53,503 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T06:36:53,503 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T06:36:53,503 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T06:36:53,511 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T06:36:53,511 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2024-11-28T06:36:53,736 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T06:36:53,736 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T06:36:53,736 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T06:36:53,736 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T06:36:53,736 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T06:36:53,736 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T06:36:53,738 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change WORKER_STOPPED -> WORKER_STOPPED
+2024-11-28T06:36:53,738 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change WORKER_STOPPED -> WORKER_STOPPED
+2024-11-28T06:36:53,739 [WARN ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery failed again
+2024-11-28T06:36:53,739 [WARN ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery failed again
+2024-11-28T06:36:53,739 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 8 seconds.
+2024-11-28T06:36:53,739 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 8 seconds.
+2024-11-28T07:33:12,940 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2024-11-28T07:33:12,940 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2024-11-28T07:33:15,396 [DEBUG] main org.pytorch.serve.util.ConfigManager - xpu-smi not available or failed: Cannot run program "xpu-smi": CreateProcess error=2, The system cannot find the file specified
+2024-11-28T07:33:15,396 [DEBUG] main org.pytorch.serve.util.ConfigManager - xpu-smi not available or failed: Cannot run program "xpu-smi": CreateProcess error=2, The system cannot find the file specified
+2024-11-28T07:33:15,396 [WARN ] main org.pytorch.serve.util.ConfigManager - Your torchserve instance can access any URL to load models. When deploying to production, make sure to limit the set of allowed_urls in config.properties
+2024-11-28T07:33:15,396 [WARN ] main org.pytorch.serve.util.ConfigManager - Your torchserve instance can access any URL to load models. When deploying to production, make sure to limit the set of allowed_urls in config.properties
+2024-11-28T07:33:15,463 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2024-11-28T07:33:15,463 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2024-11-28T07:33:15,537 [INFO ] main org.pytorch.serve.metrics.configuration.MetricConfiguration - Successfully loaded metrics configuration from C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml
+2024-11-28T07:33:15,537 [INFO ] main org.pytorch.serve.metrics.configuration.MetricConfiguration - Successfully loaded metrics configuration from C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml
+2024-11-28T07:33:15,684 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.12.0
+TS Home: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages
+Current directory: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd
+Temp directory: C:\Users\ariqf\AppData\Local\Temp
+Metrics config path: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml
+Number of GPUs: 1
+Number of CPUs: 16
+Max heap size: 5048 M
+Python executable: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe
+Config file: logs\config\20241128063700410-shutdown.cfg
+Inference address: http://127.0.0.1:8080
+Management address: http://127.0.0.1:8081
+Metrics address: http://127.0.0.1:8082
+Model Store: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\model_store
+Initial Models: blood_cells_v8=blood_cells_v8.mar
+Log dir: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\logs
+Metrics dir: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 1
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 6553500
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Enable metrics API: true
+Metrics mode: LOG
+Disable system metrics: false
+Workflow Store: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\model_store
+CPP log config: N/A
+Model config: N/A
+System metrics command: default
+Model API enabled: false
+2024-11-28T07:33:15,684 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.12.0
+TS Home: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages
+Current directory: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd
+Temp directory: C:\Users\ariqf\AppData\Local\Temp
+Metrics config path: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml
+Number of GPUs: 1
+Number of CPUs: 16
+Max heap size: 5048 M
+Python executable: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe
+Config file: logs\config\20241128063700410-shutdown.cfg
+Inference address: http://127.0.0.1:8080
+Management address: http://127.0.0.1:8081
+Metrics address: http://127.0.0.1:8082
+Model Store: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\model_store
+Initial Models: blood_cells_v8=blood_cells_v8.mar
+Log dir: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\logs
+Metrics dir: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 1
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 6553500
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Enable metrics API: true
+Metrics mode: LOG
+Disable system metrics: false
+Workflow Store: C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\model_store
+CPP log config: N/A
+Model config: N/A
+System metrics command: default
+Model API enabled: false
+2024-11-28T07:33:15,700 [INFO ] main org.pytorch.serve.snapshot.SnapshotManager - Started restoring models from snapshot {
+  "name": "20241128063700410-shutdown.cfg",
+  "modelCount": 1,
+  "created": 1732750620410,
+  "models": {
+    "blood_cells_v8": {
+      "1.0": {
+        "defaultVersion": true,
+        "marName": "blood_cells_v8.mar",
+        "minWorkers": 1,
+        "maxWorkers": 1,
+        "batchSize": 1,
+        "maxBatchDelay": 100,
+        "responseTimeout": 120,
+        "startupTimeout": 120,
+        "runtimeType": "python"
+      }
+    }
+  }
+}
+2024-11-28T07:33:15,700 [INFO ] main org.pytorch.serve.snapshot.SnapshotManager - Started restoring models from snapshot {
+  "name": "20241128063700410-shutdown.cfg",
+  "modelCount": 1,
+  "created": 1732750620410,
+  "models": {
+    "blood_cells_v8": {
+      "1.0": {
+        "defaultVersion": true,
+        "marName": "blood_cells_v8.mar",
+        "minWorkers": 1,
+        "maxWorkers": 1,
+        "batchSize": 1,
+        "maxBatchDelay": 100,
+        "responseTimeout": 120,
+        "startupTimeout": 120,
+        "runtimeType": "python"
+      }
+    }
+  }
+}
+2024-11-28T07:33:15,705 [INFO ] main org.pytorch.serve.snapshot.SnapshotManager - Validating snapshot 20241128063700410-shutdown.cfg
+2024-11-28T07:33:15,705 [INFO ] main org.pytorch.serve.snapshot.SnapshotManager - Validating snapshot 20241128063700410-shutdown.cfg
+2024-11-28T07:33:15,705 [INFO ] main org.pytorch.serve.snapshot.SnapshotManager - Snapshot 20241128063700410-shutdown.cfg validated successfully
+2024-11-28T07:33:15,705 [INFO ] main org.pytorch.serve.snapshot.SnapshotManager - Snapshot 20241128063700410-shutdown.cfg validated successfully
+2024-11-28T07:33:16,494 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 1.0 for model blood_cells_v8
+2024-11-28T07:33:16,494 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 1.0 for model blood_cells_v8
+2024-11-28T07:33:16,494 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 1.0 for model blood_cells_v8
+2024-11-28T07:33:16,494 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 1.0 for model blood_cells_v8
+2024-11-28T07:33:16,494 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 1.0 for model blood_cells_v8
+2024-11-28T07:33:16,494 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 1.0 for model blood_cells_v8
+2024-11-28T07:33:16,494 [INFO ] main org.pytorch.serve.wlm.ModelManager - Model blood_cells_v8 loaded.
+2024-11-28T07:33:16,494 [INFO ] main org.pytorch.serve.wlm.ModelManager - Model blood_cells_v8 loaded.
+2024-11-28T07:33:16,494 [DEBUG] main org.pytorch.serve.wlm.ModelManager - updateModel: blood_cells_v8, count: 1
+2024-11-28T07:33:16,494 [DEBUG] main org.pytorch.serve.wlm.ModelManager - updateModel: blood_cells_v8, count: 1
+2024-11-28T07:33:16,512 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T07:33:16,512 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: NioServerSocketChannel.
+2024-11-28T07:33:16,512 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T07:33:16,512 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: NioServerSocketChannel.
+2024-11-28T07:33:16,618 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://127.0.0.1:8080
+2024-11-28T07:33:16,618 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://127.0.0.1:8080
+2024-11-28T07:33:16,618 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: NioServerSocketChannel.
+2024-11-28T07:33:16,618 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: NioServerSocketChannel.
+2024-11-28T07:33:16,618 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://127.0.0.1:8081
+2024-11-28T07:33:16,618 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://127.0.0.1:8081
+2024-11-28T07:33:16,618 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: NioServerSocketChannel.
+2024-11-28T07:33:16,618 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: NioServerSocketChannel.
+2024-11-28T07:33:16,618 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://127.0.0.1:8082
+2024-11-28T07:33:16,618 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://127.0.0.1:8082
+2024-11-28T07:33:16,879 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2024-11-28T07:33:16,879 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2024-11-28T07:33:16,981 [ERROR] Thread-1 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\metrics\metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\metrics\system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\metrics\system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2024-11-28T07:33:16,981 [ERROR] Thread-1 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\metrics\metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\metrics\system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\metrics\system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2024-11-28T07:33:18,671 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T07:33:18,671 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T07:33:18,671 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T07:33:18,671 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T07:33:18,671 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T07:33:18,671 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T07:33:18,671 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T07:33:18,671 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T07:33:18,681 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T07:33:18,681 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T07:33:18,681 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T07:33:18,681 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2024-11-28T07:33:18,933 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T07:33:18,933 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T07:33:18,933 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T07:33:18,933 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T07:33:18,934 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T07:33:18,934 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T07:33:18,955 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change null -> WORKER_STOPPED
+2024-11-28T07:33:18,955 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change null -> WORKER_STOPPED
+2024-11-28T07:33:18,956 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery start timestamp: 1732753998955
+2024-11-28T07:33:18,956 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery start timestamp: 1732753998955
+2024-11-28T07:33:18,957 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 1 seconds.
+2024-11-28T07:33:18,957 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 1 seconds.
+2024-11-28T07:33:19,957 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T07:33:19,957 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T07:33:21,391 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2024-11-28T07:33:21,598 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T07:33:21,598 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T07:33:21,598 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T07:33:21,598 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T07:33:21,606 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T07:33:21,606 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T07:33:21,606 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change WORKER_STOPPED -> WORKER_STOPPED
+2024-11-28T07:33:21,606 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change WORKER_STOPPED -> WORKER_STOPPED
+2024-11-28T07:33:21,606 [WARN ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery failed again
+2024-11-28T07:33:21,606 [WARN ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery failed again
+2024-11-28T07:33:21,606 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 1 seconds.
+2024-11-28T07:33:21,606 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 1 seconds.
+2024-11-28T07:33:22,629 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T07:33:22,629 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T07:33:24,114 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2024-11-28T07:33:24,337 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T07:33:24,337 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T07:33:24,337 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T07:33:24,337 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T07:33:24,347 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T07:33:24,347 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T07:33:24,347 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change WORKER_STOPPED -> WORKER_STOPPED
+2024-11-28T07:33:24,347 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change WORKER_STOPPED -> WORKER_STOPPED
+2024-11-28T07:33:24,347 [WARN ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery failed again
+2024-11-28T07:33:24,347 [WARN ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery failed again
+2024-11-28T07:33:24,347 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 2 seconds.
+2024-11-28T07:33:24,347 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 2 seconds.
+2024-11-28T07:33:26,358 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T07:33:26,358 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T07:33:27,801 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2024-11-28T07:33:28,019 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T07:33:28,019 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T07:33:28,019 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T07:33:28,019 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T07:33:28,019 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T07:33:28,019 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T07:33:28,032 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change WORKER_STOPPED -> WORKER_STOPPED
+2024-11-28T07:33:28,032 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change WORKER_STOPPED -> WORKER_STOPPED
+2024-11-28T07:33:28,032 [WARN ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery failed again
+2024-11-28T07:33:28,032 [WARN ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery failed again
+2024-11-28T07:33:28,032 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 3 seconds.
+2024-11-28T07:33:28,032 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 3 seconds.
+2024-11-28T07:33:31,042 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T07:33:31,042 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T07:33:32,505 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2024-11-28T07:33:32,726 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T07:33:32,726 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T07:33:32,726 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T07:33:32,729 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T07:33:32,726 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T07:33:32,729 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T07:33:32,729 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change WORKER_STOPPED -> WORKER_STOPPED
+2024-11-28T07:33:32,729 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change WORKER_STOPPED -> WORKER_STOPPED
+2024-11-28T07:33:32,729 [WARN ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery failed again
+2024-11-28T07:33:32,729 [WARN ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery failed again
+2024-11-28T07:33:32,729 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 5 seconds.
+2024-11-28T07:33:32,729 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 5 seconds.
+2024-11-28T07:33:37,742 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T07:33:37,742 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Scripts\python.exe, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py, --sock-type, tcp, --port, 9000, --metrics-config, C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages/ts/configs/metrics.yaml]
+2024-11-28T07:33:39,153 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2024-11-28T07:33:39,153 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\model_service_worker.py", line 15, in <module>
+2024-11-28T07:33:39,153 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.async_service import AsyncService
+2024-11-28T07:33:39,153 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\async_service.py", line 14, in <module>
+2024-11-28T07:33:39,153 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.handler_utils.utils import create_predict_response
+2024-11-28T07:33:39,153 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\handler_utils\utils.py", line 5, in <module>
+2024-11-28T07:33:39,168 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2024-11-28T07:33:39,168 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\protocol\otf_message_handler.py", line 16, in <module>
+2024-11-28T07:33:39,177 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     from ts.utils.util import deprecated
+2024-11-28T07:33:39,177 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -   File "C:\Users\ariqf\Kuliah\Semester 5\TKTB1\makeReact\backEnd\venv\Lib\site-packages\ts\utils\util.py", line 14, in <module>
+2024-11-28T07:33:39,180 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG -     import yaml
+2024-11-28T07:33:39,180 [WARN ] W-9000-blood_cells_v8_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'yaml'
+2024-11-28T07:33:39,393 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T07:33:39,393 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T07:33:39,393 [INFO ] W-9000-blood_cells_v8_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stderr
+2024-11-28T07:33:39,396 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T07:33:39,393 [INFO ] W-9000-blood_cells_v8_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-blood_cells_v8_1.0-stdout
+2024-11-28T07:33:39,396 [ERROR] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorkerPython(WorkerLifeCycle.java:204) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:106) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:375) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:192) ~[model-server.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28T07:33:39,398 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change WORKER_STOPPED -> WORKER_STOPPED
+2024-11-28T07:33:39,398 [DEBUG] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-blood_cells_v8_1.0 State change WORKER_STOPPED -> WORKER_STOPPED
+2024-11-28T07:33:39,398 [WARN ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery failed again
+2024-11-28T07:33:39,398 [WARN ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Auto recovery failed again
+2024-11-28T07:33:39,398 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 8 seconds.
+2024-11-28T07:33:39,398 [INFO ] W-9000-blood_cells_v8_1.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 8 seconds.
