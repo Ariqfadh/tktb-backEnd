@@ -20,6 +20,9 @@ Follow these steps to set up and run the web app on your local machine.
 - Internet access to download the ONNX model from [here](https://drive.google.com/drive/folders/1MpG-Sy-GGQCoQc3Raef7bGyyWTuqB4bw?usp=sharing)
 
 ---
+### Web Link
+
+https://tktb-front-end.vercel.app/
 
 ### 1. Clone the Repository
 
