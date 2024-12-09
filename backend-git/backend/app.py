@@ -59,7 +59,7 @@ async def get_prediction(file: UploadFile = File(...)):
         class_id = np.argmax(class_probabilities)
         
         # Daftar nama kelas
-        class_names = ['EOSINOPHIL', 'LYMPHOCYTE', 'MONOCYTE', 'NEUTROPHIL']  # Sesuaikan dengan dataset Anda
+        class_names = ['EOSINOPHIL', 'LYMPHOCYTE', 'MONOCYTE', 'NEUTROPHIL','BASOPHIL']  # Sesuaikan dengan dataset Anda
         
         # Tentukan threshold confidence (misalnya 0.5 atau 50%)
         CONFIDENCE_THRESHOLD = 0.4
