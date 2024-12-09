@@ -19,16 +19,14 @@ app.add_middleware(
 )
 
 
+# Load ONNX model
+onnx_model_path = "blood_cells_v8.onnx"
+session = ort.InferenceSession(onnx_model_path)
+
 @app.get("/")
 def read_root():
     return {"message": "Hello, World!"}
 
-
-
-
-# Load ONNX model
-onnx_model_path = "blood_cells_v8.onnx"
-session = ort.InferenceSession(onnx_model_path)
 
 # Preprocessing function sesuai kebutuhan model ONNX
 def preprocess_image(image: Image.Image) -> np.ndarray:
@@ -59,13 +57,13 @@ async def get_prediction(file: UploadFile = File(...)):
         class_id = np.argmax(class_probabilities)
         
         # Daftar nama kelas
-        class_names = ['EOSINOPHIL', 'LYMPHOCYTE', 'MONOCYTE', 'NEUTROPHIL','BASOPHIL']  # Sesuaikan dengan dataset Anda
+        class_names = ['Basophil', 'Eosinophil', 'Lymphocyte', 'Monocyte', 'Neutrophil']  # Sesuaikan dengan dataset Anda
         
         # Tentukan threshold confidence (misalnya 0.5 atau 50%)
         CONFIDENCE_THRESHOLD = 0.4
         
         if max_confidence < CONFIDENCE_THRESHOLD:
-            predicted_label = "Undetected"
+            predicted_label = str(max_confidence)
         else:
             predicted_label = class_names[class_id] if class_id < len(class_names) else "Unknown"
         
