@@ -30,7 +30,7 @@ def read_root():
 
 # Preprocessing function sesuai kebutuhan model ONNX
 def preprocess_image(image: Image.Image) -> np.ndarray:
-    image = image.resize((224, 224))  # Resize sesuai kebutuhan model
+    image = image.resize((256, 256))  # Resize sesuai kebutuhan model
     image_array = np.array(image).astype("float32") / 255.0  # Normalisasi 0-1
     if len(image_array.shape) == 2:  # Jika grayscale, tambahkan channel
         image_array = np.stack([image_array] * 3, axis=-1)
