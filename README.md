@@ -26,4 +26,10 @@ https://tktb-front-end.vercel.app/
 
 ### 1. Clone the Repository
 
-Clone this repository to your local machine:
+Clone this repository to your local machine
+
+### 2. Run BackEnd
+
+1. Activate venv by venv\Scripts\activate
+2. Change directory to backEnd folder
+3. type uvicorn main:app
