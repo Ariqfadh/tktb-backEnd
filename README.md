@@ -18,7 +18,7 @@ Follow these steps to set up and run the web app on your local machine.
 
 - Python 3.8 or higher installed on your system.
 - Internet access to download the ONNX model from [here](https://drive.google.com/drive/folders/1MpG-Sy-GGQCoQc3Raef7bGyyWTuqB4bw?usp=sharing)
-
+- Put the model inside the back end folder
 ---
 ### Web Link
 
